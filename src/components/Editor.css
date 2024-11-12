@@ -1,0 +1,18 @@
+.editor {
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    width: 48%;
+    height: 400px;
+}
+
+.preview {
+    width: 48%;
+    height: 400px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
