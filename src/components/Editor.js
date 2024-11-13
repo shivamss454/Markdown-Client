@@ -31,7 +31,7 @@ const Editor = () => {
             />
             <div
                 className="preview"
-                dangerouslySetInnerHTML={{ __html: html }} // Updated to render HTML
+                dangerouslySetInnerHTML={{ __html: html }}
             />
         </div>
     );
